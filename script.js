@@ -164,7 +164,7 @@ for (let i = 0; i < segments.length; i++) {
                 newCell.innerHTML = segments[i][j];
             }
         } else if (j == 8) {
-            newCell.innerHTML = "<a href='" + segments[i][j] + "'>link</a>";
+            newCell.innerHTML = "<a href='" + segments[i][j] + "' target='_blank'>link</a>";
         } else {
             newCell.innerHTML = segments[i][j];
         }
